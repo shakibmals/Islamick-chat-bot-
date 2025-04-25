@@ -198,6 +198,15 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "ami APON") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
+  
+  if ((event.body.toLowerCase() == "tore chudi") || (event.body.toLowerCase() == "khaicho")) {
+     return api.sendMessage("chup tuqai er baccha <😘", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "fuck you" || (event.body.toLowerCase() == "khaicho")) {
+     return api.sendMessage("chi tor dhon choto tui amar kache theke dhure jah bainchod <😘", threadID);
+   };
+  
   mess = "{name}"
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
